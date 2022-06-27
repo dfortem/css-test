@@ -1,0 +1,41 @@
+:root {
+    --theme-ui-colors-primary: #A18AFF;
+    --theme-ui-colors-secondary: #FF8AE5;
+    --theme-ui-colors-background: #141415;
+    --theme-ui-colors-backgroundAlt: #2B2B2C;
+    --theme-ui-colors-backgroundAlt2: #000001;
+    --theme-ui-colors-backgroundAlt3: #434344;
+    --theme-ui-colors-backgroundBannerPrivacy: #4B4B4B;
+    --theme-ui-colors-surface: #ffffff;
+    --theme-ui-colors-headline: #E3E0ED;
+    --theme-ui-colors-text: #B4B0BF;
+    --theme-ui-colors-textAlt: #000;
+    --theme-ui-colors-muted: #717171;
+    --theme-ui-colors-error: #FFA7E6;
+    --theme-ui-colors-warning: #FFC1A6;
+    --theme-ui-colors-success: #A6FFA9;
+    --theme-ui-colors-border: #5D5B63;
+    --theme-ui-colors-accent: #8AB9FF;
+    --theme-ui-colors-gray: #E3E0ED;
+    color: var(--theme-ui-colors-text);
+    background-color: var(--theme-ui-colors-background);
+}
+
+/* app background*/
+.content-container {
+    background-color: var(--theme-ui-colors-background);
+}
+.bk-actionable-list .bk-actionable-list-content .bk-actionable-list-header,
+    /*action header */
+.bk-actionable-list .bk-actionable-list-content .bk-list-header-wrapper,
+    /* table headr right/left space*/
+.bk-actionable-list .bk-actionable-list-content .bk-list-content,
+    /* table body right/left space*/
+.bk-sharable-item .bk-sharable-item-container .bk-sharable-content-container,
+    /*  pinboard detail */
+.bk-vertical-flex-container-sized,
+    /* data tab*/
+.answer-module__searchCurtain /* answer section*/ {
+    background-color: var(--theme-ui-colors-backgroundAlt); !important;
+}
+
