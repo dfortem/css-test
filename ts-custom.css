@@ -30,3 +30,13 @@
     background-color: var(--theme-ui-colors-backgroundAlt);
     color: var(--theme-ui-colors-text);
 }
+
+.chartSection .vizWrapper .bk-axis-label-container .bk-axis-label .bk-axis-label-control .axis-label-title {
+    color: var(--theme-ui-colors-text);
+}
+
+/* Powered by Footer */
+.bk-powered-footer {
+    background-color: var(--theme-ui-colors-backgroundAlt);
+    color: var(--theme-ui-colors-text);
+}
