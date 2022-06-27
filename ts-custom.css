@@ -32,7 +32,7 @@
 }
 
 svg text {
-    color: var(--theme-ui-colors-text);
+    fill: var(--theme-ui-colors-text) !important;
 }
 
 .chartSection .vizWrapper .bk-axis-label-container .bk-axis-label .bk-axis-label-control .axis-label-title {
@@ -40,7 +40,7 @@ svg text {
 }
 
 /* Powered by Footer */
-.bk-powered-footer {
+.bk-embed .bk-embed-powered-by-ts-ribbon .bk-powered-footer {
     background-color: var(--theme-ui-colors-backgroundAlt);
     color: var(--theme-ui-colors-text);
 }
