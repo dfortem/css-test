@@ -27,9 +27,24 @@
 /*Pinboard card (regular card container)*/
 .bk-pinboard-data-viz-container .bk-pinboard-data-viz,
 .bk-pinboard-generic-viz-container .bk-pinboard-generic-viz {
+    position: relative;
     border-radius: 8px;
     background-color: var(--theme-ui-colors-backgroundAlt);
     color: var(--theme-ui-colors-headline);
+}
+
+/*Pinboard card (regular card container)*/
+.bk-pinboard-data-viz-container .bk-pinboard-data-viz::after,
+.bk-pinboard-generic-viz-container .bk-pinboard-generic-viz::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:
+            url("https://cdn.jsdelivr.net/gh/dfortem/css-test@bddfaaa0ca7a408153a4afb304573376f7abadb1/LOGO_SVG.svg")
+            center center;
 }
 
 svg text {
