@@ -33,9 +33,8 @@
     color: var(--theme-ui-colors-headline);
 }
 
-/*Pinboard card (regular card container)*/
-.bk-pinboard-data-viz-container .bk-pinboard-data-viz::after,
-.bk-pinboard-generic-viz-container .bk-pinboard-generic-viz::after {
+/*Watermark*/
+.bk-pinboard-viz-content .bk-data-viz.bk-data-viz-state-render .bk-data-viz-content .chartSection::after {
     content: "";
     position: absolute;
     top: 0;
